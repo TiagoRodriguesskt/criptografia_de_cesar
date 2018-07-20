@@ -1,0 +1,17 @@
+﻿#Para usar o programa, faça o download ou copie o código fonte. Você tem que dar permissão ao programa usando o seguinte o comando.
+
+ ===> chmod +x cesar.py <===
+
+#Para criptografa um arquivo, use o seguinte comando.
+./cesar.py "arquivo.txt" "número(0-25)" enc ===> Criptografando
+
+#Para descriptografar um arquivo, use o seguinte comando.
+./cesar.py "arquivo.txt" "número(0-25)" dec ===> Quebrando a cifra
+
+#Com esse comando, você vai ter seu arquivo criptografado salvo em outro local.
+./cesar.py "arquivo.txt" "número(0-25)" enc > "arquivo.txt" 
+
+#Quando você criptografar um arquivo, use os números de 0 a 25, são eles que vai cifra sua mensagem. 
+
+#Para descifrar a mesma mensagem, use o mesmo número de 
+0 a 25, que você usou para cifrar.
